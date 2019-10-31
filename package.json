@@ -1,0 +1,23 @@
+{
+  "name": "get-date-from-harb",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "kill-port": "^1.6.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.4",
+    "pug": "2.0.0-beta11"
+  }
+}
